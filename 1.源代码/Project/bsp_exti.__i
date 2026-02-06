@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Libraries\CMSIS -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\User -I..\User\led -I..\User\key -I..\User\exti -I..\User\Timbase -I..\User\usart -I..\User\CS5523 -I..\User\I2C -I..\User\PID -I..\User\AD7705 
+-I C:\Keil\ARM\RV31\INC 
+-I C:\Keil\ARM\CMSIS\Include 
+-I C:\Keil\ARM\Inc\ST\STM32F10x 
+-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -o "bsp_exti.o" --omf_browse "bsp_exti.crf" --depend "bsp_exti.d" "..\User\exti\bsp_exti.c"
